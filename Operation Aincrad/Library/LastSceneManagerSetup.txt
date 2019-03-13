@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Asuna.unity
+- path: Assets/Scenes/Kirito.unity
   isLoaded: 1
   isActive: 1
