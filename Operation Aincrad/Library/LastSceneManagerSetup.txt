@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/Asuna.unity
-  isLoaded: 1
-  isActive: 1
