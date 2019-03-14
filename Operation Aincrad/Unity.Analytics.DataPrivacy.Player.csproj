@@ -221,9 +221,6 @@
     <Reference Include="MetroSupport/Tools/UnityEngine.XRModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.8f1\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Timeline">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll</HintPath>
     </Reference>
