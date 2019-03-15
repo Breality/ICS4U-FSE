@@ -11,31 +11,35 @@ public class MenuToggle : MonoBehaviour
 
     }
 
-    private int cur = 0;
-    private string[] order = new string[] { "Profile", "Friends", "Map", "Settings" };
-    public Transform options;
-    public Transform extensions;
+
 
     private void ButtonMode(Transform button, bool mode)
     {
         if (mode)
         {
             button.GetComponent<Image>().color = new Color32(255, 181, 0, 255);
+            extensions.Find(button.name).gameObject.SetActive(true);
         }
         else
         {
             button.GetComponent<Image>().color = new Color32(255, 255, 225, 121);
+            extensions.Find(button.name).gameObject.SetActive(false);
         }
-
     }
 
     bool inTranslation = false;
+    bool isOpen = false;
+    private int cur = 0;
+    public Transform options;
+    public Transform extensions;
+    private string[] order = new string[] { "Start", "Profile", "Friends", "Map", "Settings" };
+    float transitionConstant = 0.09f;
+
     public IEnumerator Toggle(int dir) // scrolls through the menu options
     {
-        float transitionTime = 0.6f;
-        float transitionConstant = 0.09f;
+        float transitionTime = 0.5f * Mathf.Abs(dir);
 
-        if (!inTranslation && cur + dir >= 0 && cur + dir < order.Length) // only toggle if we're not already toggling and if we have room
+        if (!inTranslation && cur + dir > 0 && cur + dir < order.Length) // only toggle if we're not already toggling and if we have room
         {
             inTranslation = true;
 
@@ -47,8 +51,7 @@ public class MenuToggle : MonoBehaviour
             float translation = dir * transitionConstant;
             float startingoffset = options.parent.position.y;
 
-            extensions.Find(oldName).gameObject.SetActive(false); // remove old menu
-            ButtonMode(options.Find(oldName), false); // unmark button
+            ButtonMode(options.Find(oldName), false); // unmark button and remove old menu
 
             // translate buttons
             float startTime = Time.realtimeSinceStartup;
@@ -62,17 +65,37 @@ public class MenuToggle : MonoBehaviour
             }
             options.position = new Vector3(options.position.x, startPos + translation + (options.parent.position.y - startingoffset), options.position.z);
 
-            // show new menu
-            ButtonMode(options.Find(newName), true);
-            extensions.Find(newName).gameObject.SetActive(true);
-
-            // allow translation again
-            inTranslation = false;
+            ButtonMode(options.Find(newName), true); // show new menu
+            inTranslation = false; // allow translation again
         }
         yield return null;
 
     }
     // Update is called once per frame
+    public void Activate(bool value)
+    {
+        print(value);
+        if (value && cur > 0) // reset the values
+        {
+            ButtonMode(options.Find(order[cur]), false);
+            options.Translate(new Vector3(0, transitionConstant * cur *-1, 0));
+            cur = 0;
+        }
+        options.parent.gameObject.SetActive(value);
+        isOpen = value;
+    }
+
+    float lastswitch = 0;
+    public void switchSeen() // for testing
+    {
+        if (Time.realtimeSinceStartup - lastswitch > 1)
+        {
+            Activate(!isOpen);
+            lastswitch = Time.realtimeSinceStartup;
+        }
+    }
+
+
     void Update()
     {
         if (Input.GetKey(KeyCode.K)) // up

@@ -10,6 +10,7 @@ public class CamMove : MonoBehaviour
         
     }
 
+    public MenuToggle menu;
     float speed = 5.0f;
     void Update()
     {
@@ -36,6 +37,10 @@ public class CamMove : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             transform.position -= new Vector3(0, 0, speed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.O))
+        {
+            menu.switchSeen();
         }
     }
 }
