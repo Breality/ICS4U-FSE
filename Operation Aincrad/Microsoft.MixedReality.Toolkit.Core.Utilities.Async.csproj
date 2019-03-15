@@ -60,11 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Async\AwaiterExtensions.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Async\AwaitYieldInstructions\WaitForBackgroundThread.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Async\AwaitYieldInstructions\WaitForUpdate.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Async\Internal\AsyncCoroutineRunner.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Async\Internal\SyncContextUtility.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Async\AwaiterExtensions.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Async\AwaitYieldInstructions\WaitForBackgroundThread.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Async\AwaitYieldInstructions\WaitForUpdate.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Async\Internal\AsyncCoroutineRunner.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Async\Internal\SyncContextUtility.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

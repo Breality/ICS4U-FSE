@@ -60,13 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\BuildAndDeploy\BuildDeployPreferences.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\BuildAndDeploy\BuildInfo.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\BuildAndDeploy\CopyDirectoryInfo.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpAppxBuildTools.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpBuildDeployWindow.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpPlayerBuildTools.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpProjectPostProcess.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\BuildAndDeploy\BuildDeployPreferences.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\BuildAndDeploy\BuildInfo.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\BuildAndDeploy\CopyDirectoryInfo.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpAppxBuildTools.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpBuildDeployWindow.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpPlayerBuildTools.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\BuildAndDeploy\UwpProjectPostProcess.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

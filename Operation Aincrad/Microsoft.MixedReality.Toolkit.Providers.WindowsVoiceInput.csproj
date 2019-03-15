@@ -60,8 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsVoiceInput\WindowsDictationInputProvider.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsVoiceInput\WindowsSpeechInputProvider.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\WindowsVoiceInput\WindowsDictationInputProvider.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\WindowsVoiceInput\WindowsSpeechInputProvider.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

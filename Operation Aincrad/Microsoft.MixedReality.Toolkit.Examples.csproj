@@ -60,14 +60,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit.Examples\Demos\Audio\Scripts\LoFiFilterSelection.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Examples\Demos\Boundary\Scripts\BoundaryVisualizationDemo.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Examples\Demos\Diagnostics\Scripts\DiagnosticsDemoControls.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Examples\Demos\Solvers\Scripts\SwapVolume.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\DemoSpatialMeshHandler.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Examples\Demos\StandardShader\Scripts\MaterialMatrix.cs" />
-    <None Include="Assets\MixedRealityToolkit.Examples\License.txt" />
-    <None Include="Assets\MixedRealityToolkit.Examples\Version.txt" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Audio\Scripts\LoFiFilterSelection.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Boundary\Scripts\BoundaryVisualizationDemo.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Diagnostics\Scripts\DiagnosticsDemoControls.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Solvers\Scripts\SwapVolume.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\DemoSpatialMeshHandler.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\StandardShader\Scripts\MaterialMatrix.cs" />
+    <None Include="Assets\MRTK\MixedRealityToolkit.Examples\License.txt" />
+    <None Include="Assets\MRTK\MixedRealityToolkit.Examples\Version.txt" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

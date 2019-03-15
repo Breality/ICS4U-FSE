@@ -9,8 +9,7 @@ public class HeadSetPositioning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InputTracking.disablePositionalTracking = true;
-        this.transform.position = Vector3.zero;
+        XRDevice.DisableAutoXRCameraTracking(cam, true);
     }
 
     // Update is called once per frame

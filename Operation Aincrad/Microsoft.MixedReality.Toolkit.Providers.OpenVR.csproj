@@ -60,13 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\GenericOpenVRController.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\OculusRemoteController.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\OculusTouchController.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\OpenVRDeviceManager.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\ViveKnucklesController.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\ViveWandController.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\OpenVR\WindowsMixedRealityOpenVRMotionController.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\OpenVR\GenericOpenVRController.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\OpenVR\OculusRemoteController.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\OpenVR\OculusTouchController.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\OpenVR\OpenVRDeviceManager.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\OpenVR\ViveKnucklesController.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\OpenVR\ViveWandController.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\OpenVR\WindowsMixedRealityOpenVRMotionController.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>
