@@ -60,10 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit.Services\InputSystem\FocusProvider.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Services\InputSystem\GazeProvider.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Services\InputSystem\InputSystemGlobalListener.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Services\InputSystem\MixedRealityInputSystem.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Services\InputSystem\FocusProvider.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Services\InputSystem\GazeProvider.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Services\InputSystem\InputSystemGlobalListener.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Services\InputSystem\MixedRealityInputSystem.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

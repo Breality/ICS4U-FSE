@@ -6,7 +6,6 @@ public class KiritoMovement : MonoBehaviour
 {
     private Animator kiritoController;
     float speed = 0.1F;
-    public Transform cam;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +20,7 @@ public class KiritoMovement : MonoBehaviour
         float vy = Mathf.Abs(Input.GetAxis("L_Vertical")) > 0.2F ? Input.GetAxis("L_Vertical") : 0;
         kiritoController.SetFloat("Vx", vx);
         kiritoController.SetFloat("Vy", vy);
+        Debug.Log(Mathf.Abs(Input.GetAxis("L_Horizontal")));
         this.transform.position = new Vector3(this.transform.position.x + vx*speed, this.transform.position.y,this.transform.position.z+vy*speed);
     }
 }

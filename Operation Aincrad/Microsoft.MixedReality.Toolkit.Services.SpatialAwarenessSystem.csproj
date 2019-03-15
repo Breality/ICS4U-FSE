@@ -60,7 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit.Services\SpatialAwarenessSystem\MixedRealitySpatialAwarenessSystem.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Services\SpatialAwarenessSystem\MixedRealitySpatialAwarenessSystem.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

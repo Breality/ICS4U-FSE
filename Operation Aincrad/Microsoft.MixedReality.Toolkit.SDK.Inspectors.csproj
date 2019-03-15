@@ -60,28 +60,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\BaseInputHandlerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\ControllerPoseSynchronizerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\MixedRealityControllerVisualizerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\PointerClickHandlerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\SpeechInputHandlerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Utilities\Solvers\ControllerFinderInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Utilities\Solvers\InBetweenInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\Utilities\Solvers\SolverHandlerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Collections\BaseCollectionInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\ButtonBackgroundSizeGizmo.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\InteractableInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\InteractableReceiverInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\InteractableReceiverListInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\StatesInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\ThemeInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\BaseControllerPointerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\LinePointerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\MousePointerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\ParabolicTeleportPointerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\TeleportPointerInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Tooltips\ToolTipConnectorInspector.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.SDK\Inspectors\UX\Tooltips\ToolTipInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\BaseInputHandlerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\ControllerPoseSynchronizerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\MixedRealityControllerVisualizerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\PointerClickHandlerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Input\Handlers\SpeechInputHandlerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Utilities\Solvers\ControllerFinderInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Utilities\Solvers\InBetweenInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\Utilities\Solvers\SolverHandlerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Collections\BaseCollectionInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\ButtonBackgroundSizeGizmo.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\InteractableInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\InteractableReceiverInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\InteractableReceiverListInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\StatesInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Interactable\ThemeInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\BaseControllerPointerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\LinePointerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\MousePointerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\ParabolicTeleportPointerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Pointers\TeleportPointerInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Tooltips\ToolTipConnectorInspector.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.SDK\Inspectors\UX\Tooltips\ToolTipInspector.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

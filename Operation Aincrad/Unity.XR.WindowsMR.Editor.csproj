@@ -685,6 +685,7 @@
     <Compile Include="Packages\com.unity.xr.windowsmr.metro\Editor\SpatialMappingRendererInspector.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\SAO_Fonts_v4.000\Another\Readme.txt" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />

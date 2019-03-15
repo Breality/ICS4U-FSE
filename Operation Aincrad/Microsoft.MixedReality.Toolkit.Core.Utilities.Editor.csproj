@@ -60,14 +60,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\EditorAssemblyReloadManager.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\EditorPrefsUtility.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\EditorProjectUtilities.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\IconEditor.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\InputMappingAxisUtility.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\Setup\MixedRealityEditorSettings.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceInfo.cs" />
-    <Compile Include="Assets\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceListener.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\EditorAssemblyReloadManager.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\EditorPrefsUtility.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\EditorProjectUtilities.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\IconEditor.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\InputMappingAxisUtility.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\Setup\MixedRealityEditorSettings.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceInfo.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceListener.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>

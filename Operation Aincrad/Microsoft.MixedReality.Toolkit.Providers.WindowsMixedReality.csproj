@@ -60,9 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityController.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityDeviceManager.cs" />
-    <Compile Include="Assets\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealitySpatialMeshObserver.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityController.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealityDeviceManager.cs" />
+    <Compile Include="Assets\MRTK\MixedRealityToolkit.Providers\WindowsMixedReality\WindowsMixedRealitySpatialMeshObserver.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>
